@@ -5,7 +5,8 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_C_INCLUDES := \
-    system/core/init
+    system/core/init \
+    external/selinux/libselinux/include
 
 LOCAL_STATIC_LIBRARIES := \
     libbase

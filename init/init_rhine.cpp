@@ -24,6 +24,8 @@
 
 #include <sys/system_properties.h>
 
+using namespace android::init;
+
 static void import_kernel_nv(const std::string& key,
         const std::string& value, bool for_emulator __attribute__((unused)))
 {
