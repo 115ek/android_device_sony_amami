@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
 BOARD_VENDOR := sony
 
 # Use Snapdragon LLVM Compiler if available
@@ -212,3 +213,5 @@ BOARD_PROVIDES_LIBRIL := false
 # Time
 BOARD_USES_QC_TIME_SERVICES := true
 
+# adb fix
+TARGET_USES_LEGACY_ADB_INTERFACE := true
