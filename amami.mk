@@ -138,14 +138,15 @@ PRODUCT_PACKAGES += \
     macaddrsetup
 
 # NFC
-PRODUCT_PACKAGES += \
-    nfc.qcom \
-    libnfc \
-    libnfc_ndef \
-    libnfc_jni \
-    Nfc \
-    Tag \
-    com.android.nfc_extras
+#EEEE temporary disable
+#PRODUCT_PACKAGES += \
+#    nfc.qcom \
+#    libnfc \
+#    libnfc_ndef \
+#    libnfc_jni \
+#    Nfc \
+#    Tag \
+#    com.android.nfc_extras
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
