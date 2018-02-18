@@ -193,7 +193,7 @@ service tad_static /sbin/tad_static /dev/block/bootdevice/by-name/TA 0,16
     class trimarea
     user oem_2997
     group oem_2997 oem_2993 root
-    socket tad stream 0770 system oem_3993
+    socket tad stream 0770 system oem_2993
     seclabel u:r:tad:s0
 
 service updatemiscta /vendor/bin/updatemiscta
