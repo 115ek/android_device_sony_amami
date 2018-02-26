@@ -1,0 +1,9 @@
+diff --git a/wifi/1.1/default/android.hardware.wifi@1.0-service.rc b/wifi/1.1/default/android.hardware.wifi@1.0-service.rc
+index 696b1f93..3672423d 100644
+--- a/wifi/1.1/default/android.hardware.wifi@1.0-service.rc
++++ b/wifi/1.1/default/android.hardware.wifi@1.0-service.rc
+@@ -2,3 +2,4 @@ service wifi_hal_legacy /vendor/bin/hw/android.hardware.wifi@1.0-service
+     class hal
+     user wifi
+     group wifi gps
++    capabilities NET_ADMIN NET_RAW
